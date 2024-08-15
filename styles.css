@@ -50,17 +50,61 @@ main {
     text-align: center;
 }
 
-h1, h2 {
-    color: #333;
+/* Introduction section styling */
+.intro-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space between text and image */
+    gap: 20px; /* Add space between text and image */
 }
 
-/* Footer styling */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.intro-text {
+    flex: 1; /* Text takes available space */
 }
+
+.intro-image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.profile-image {
+    display: block; /* Make sure it's not inline */
+    width: 150px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #007BFF; /* Blue background for the navbar */
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 18px;
+                padding: 8px 16px;
+                border-radius: 5px; /* Rounded corners */
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+                nav ul li a:hover {
+                    background-color: #0056b3; /* Darker blue for hover effect */
