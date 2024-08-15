@@ -1,11 +1,39 @@
-<HTML>
-<HEAD>
-<META NAME="GENERATOR" Content="Microsoft Visual Studio">
-<TITLE></TITLE>
-</HEAD>
-<BODY>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="future.html">Future</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h1>Contact Me</h1>
+            <form action="your-server-endpoint" method="post">
+                <label for="Jennifer's contact information'">Name:</label>
+                <input type="Jennifer Singh" id="name" name="name" required>
 
+                <label for="jennynandra@gmail.com">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-
-</BODY>
-</HTML>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
