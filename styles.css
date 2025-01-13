@@ -7,8 +7,8 @@ body {
 }
 
 .container { 
-    margin-left: 10.5in; /* This sets the left margin to 10.5 inches */ 
-    margin-right: 0.5in; /* This sets the right margin to 0.5 inches */ }
+    margin-left: 2.5in; /* This sets the left margin to 10.5 inches */ 
+    margin-right: 2.5in; /* This sets the right margin to 0.5 inches */ }
 
 /* Header and Navigation */
 header {
