@@ -2,11 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    margin-left: 2.5;
-    margin-right: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
+.container { 
+    margin-left: 10.5in; /* This sets the left margin to 10.5 inches */ 
+    margin-right: 0.5in; /* This sets the right margin to 0.5 inches */ }
 
 /* Header and Navigation */
 header {
